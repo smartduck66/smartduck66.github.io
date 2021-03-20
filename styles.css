@@ -13,17 +13,7 @@
 	font-display: fallback;
 	font-style: oblique 0deg 10deg;
   }
-  
-  body {
-	background-color: var(--background);
-	color: var(--foreground);
-	transition: all 0.35s;
-	font-size: 1.2em;
-	font-family: 'sans-serif';
-	font-family: var(--MainFont);
-	font-weight: 400;
-  }
-  
+
   @supports (font-variation-settings: 'wdth' 200) {
 	body {
 	  font-family: 'Inter-V';
@@ -34,7 +24,7 @@
 
 body {
 	padding: 1rem 0.5rem;
-	font-size: 1.3rem;
+	font-size: 1.2em;
 	line-height: 1.2;
 	max-width: 60rem;
 	margin: 0 auto;
