@@ -53,7 +53,7 @@
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img onmouseover="bigImg(this)" src="img/porte.jpg" alt="Image 2"/></div>
+                        <div class="grid-item-1"><img onmouseover="bigImg(this.id)" src="img/porte.jpg" alt="Image 2"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">La porte d'entrée</figcaption></div>
                     </div>
                 </figure>
@@ -117,9 +117,10 @@
             <img class="BigPicture" src="img/altair.jpg" alt="ImageHD" />
         </div>
         <script>
-            function bigImg(x) {
-                var img = document.getElementById("BigPicture");
-                img.src = "img/porte.jpg";
+            function bigImg(id) {
+                BigImage = document.getElementById("BigPicture"); 
+                var img_source = document.getElementById(id);
+                BigImage.src = img_source.src; 
             }
         </script>
             
