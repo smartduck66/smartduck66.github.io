@@ -55,7 +55,7 @@ img {
 }
 
 .MoneyShotImg {
-	border: 6px solid #e8cfa9;
+	border: 4px solid #e8cfa9;
 	border-radius: 4px;
 }
 
@@ -151,6 +151,11 @@ img {
 	max-width: 12rem;
 	font-size: 0.8rem;
 	line-height: 1;
+}
+
+.BigPicture {
+	border: 4px solid #e8cfa9;
+	border-radius: 4px;
 }
 
 @media screen and (min-width: 800px) {
