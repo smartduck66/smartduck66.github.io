@@ -47,71 +47,77 @@
             <nav class="Scroll_Wrapper">
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"></a><img src="img/altair.jpg" alt="Image 1"/></div>
+                        <div class="grid-item-1"><img src="img/altair.jpg" alt="Image 1" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">L'immeuble ALTAIR</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/porte.jpg" alt="Image 2"/></div>
+                        <div class="grid-item-1"><img src="img/porte.jpg" alt="Image 2" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">La porte d'entrée</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/salon_1.jpg" alt="Image 3"/></div>
+                        <div class="grid-item-1"><img src="img/salon_1.jpg" alt="Image 3" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">Le salon/salle à manger</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/salon_2.jpg" alt="Image 4"/></div>
+                        <div class="grid-item-1"><img src="img/salon_2.jpg" alt="Image 4" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">Le salon (2 couchages)</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/vue_terrasse_1.jpg" alt="Image 5"/></div>
+                        <div class="grid-item-1"><img src="img/vue_terrasse_1.jpg" alt="Image 5" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">Vue sud-est de la terrasse</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/vue_terrasse_2.jpg" alt="Image 6"/></div>
+                        <div class="grid-item-1"><img src="img/vue_terrasse_2.jpg" alt="Image 6" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">Vue sud-ouest de la terrasse</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/cuisine.jpg" alt="Image 7"/></div>
+                        <div class="grid-item-1"><img src="img/cuisine.jpg" alt="Image 7" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">La cuisine</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/chambre_1.jpg" alt="Image 8"/></div>
+                        <div class="grid-item-1"><img src="img/chambre_1.jpg" alt="Image 8" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">La chambre (3 couchages)</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/chambre_2.jpg" alt="Image 9"/></div>
+                        <div class="grid-item-1"><img src="img/chambre_2.jpg" alt="Image 9" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">La chambre</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/casier_skis.jpg" alt="Image 10"/></div>
+                        <div class="grid-item-1"><img src="img/casier_skis.jpg" alt="Image 10" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">Le casier à skis</figcaption></div>
                     </div>
                 </figure>
                 <figure class="Item"> 
                     <div class="my_grid">
-                        <div class="grid-item-1"><img src="img/cave.jpg" alt="Image 11"/></div>
+                        <div class="grid-item-1"><img src="img/cave.jpg" alt="Image 11" onClick="swipe(this);"/></div>
                         <div class="grid-item-2"><figcaption class="Caption">La cave</figcaption></div>
                     </div>
                 </figure>  
             </nav>
         </div>
     </body>
+    <script type="text/javascript">
+        function swipe(bigImage) {
+            var url = bigImage.getAttribute('src');
+            window.open(url,'Image');
+        }
+    </script>
 </html>
