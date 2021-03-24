@@ -106,11 +106,12 @@ img {
 	-ms-overflow-style: none;
 }
 
-/*Stops the scrollbar appearing in WebKit browsers*/
+/*Stops the scrollbar appearing in WebKit browsers : Retiré car sinon boutons en JS à implémenter pour les grands écrans non tactiles*/
+/*
 .Scroll_Wrapper::-webkit-scrollbar {
 	display: none;
 }
-
+*/
 .my_grid {
 	display: inline-grid;
 	grid-gap: 3px;
@@ -151,11 +152,6 @@ img {
 	max-width: 12rem;
 	font-size: 0.8rem;
 	line-height: 1;
-}
-
-.BigPicture {
-	border: 4px solid #e8cfa9;
-	border-radius: 4px;
 }
 
 @media screen and (min-width: 800px) {
