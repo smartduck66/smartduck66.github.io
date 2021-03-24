@@ -154,6 +154,26 @@ img {
 	line-height: 1;
 }
 
+.Footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer_Link {
+    font-size: 0.75rem;
+    line-height: 1.6;
+	color: #333;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: #b50404;
+    text-decoration-thickness: 2px;
+    display: inline-flex;
+	width: 100%;
+    align-items: center;
+	justify-content: space-around;
+}
+
+
 @media screen and (min-width: 800px) {
 	body {
 		border-left: 4px solid #f9f9f9;
